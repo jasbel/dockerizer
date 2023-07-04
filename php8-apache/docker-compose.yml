@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  php82:
+    build: .
+    container_name: php82-apache
+    ports:
+      - 8001:80
+    volumes:
+      - ./:/var/www/html/
+      # - ./configuration/vhosts/enabled:/etc/apache2/sites-enabled
+      # - ./configuration/vhosts/available:/etc/apache2/sites-available

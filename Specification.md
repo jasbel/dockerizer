@@ -13,3 +13,8 @@ docker exec -it mycontainer bash
 docker exec -it mysql mysql -uroot -p
 # Test1235
 ```
+
+# Reinitilize dockker container
+```
+docker-compose down && docker-compose build && docker-compose up
+```
