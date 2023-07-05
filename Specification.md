@@ -18,3 +18,11 @@ docker exec -it mysql mysql -uroot -p
 ```
 docker-compose down && docker-compose build && docker-compose up
 ```
+## Forzar reconstruccion
+docker-compose up --build
+
+# Remover
+## Remover todos los contenedores
+```
+docker container rm -f $(docker container ls -aq)
+```
