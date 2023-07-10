@@ -1,0 +1,5 @@
+{
+  "require": {
+    "facenet/hello-world": "v1.*"
+  }
+}
