@@ -81,3 +81,13 @@ docker container run \
 mariadb:jammy
 
 // root
+
+
+## comandos
+docker exec -it ipname bash
+docker image ls
+docker image rm -f ipname
+docker network ls
+docker network prune
+docker container ls
+docker container prune

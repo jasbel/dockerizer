@@ -1,3 +1,5 @@
 mysql8
 
 node_modules
+postgres-admin/postgres
+postgres-admin/pgadmin
